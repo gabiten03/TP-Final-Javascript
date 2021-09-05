@@ -139,6 +139,7 @@ function cambiarProveedor(proveedor) {
     let valorConsumo = $('#textConsumo').val();
 
     if ((isNaN(valorConsumo)) || (valorConsumo == "")) {
+        
         equiposTodos.equipos[0].calcularPrecio(null);
     }
     else {
@@ -178,7 +179,7 @@ function mostrarSumarORestarHoras(objeto) {
 }
 
 function recalcularPrecio() {
-    let valorConsumo = $('#textConsumo').val();
+    let valorConsumo = parseFloat($('#textConsumo').val());
     $('.alert').fadeOut(1000);
     if ((isNaN(valorConsumo)) || (valorConsumo == "")) {
         $('.alert').fadeIn(function () {
