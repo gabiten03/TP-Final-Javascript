@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Heladera",
+        "consumo": "0.05",
+        "imagen": "./img/heladera.svg"
+    },
+    {
+        "id": "1",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Ventilador",
+        "consumo": "0.08",
+        "imagen": "./img/ventilador.svg"
+    },
+    {
+        "id": "2",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Lampara",
+        "consumo": "0.09",
+        "imagen": "./img/lampara.svg"
+    },
+    {
+        "id": "3",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Television",
+        "consumo": "0.28",
+        "imagen": "./img/tele.svg"
+    },
+    {
+        "id": "4",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Lavarropas",
+        "consumo": "0.28",
+        "imagen": "./img/lavarropas.svg"
+    },
+    {
+        "id": "5",
+        "uso": "0",
+        "cantidad": "1",
+        "tipo": "Caloventor",
+        "consumo": "2",
+        "imagen": "./img/caloventor.svg"
+    }
+]
